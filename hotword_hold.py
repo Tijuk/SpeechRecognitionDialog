@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/home/a/snowboy/swig/Python')
+sys.path.append('/home/cyberlab/snowboy/swig/Python')
 import snowboydecoder
 
 import signal

@@ -19,6 +19,7 @@ def recognize_google(recognizer, audio, language):
     return text;
 
 def adjust_amb_noise():
+    print('Adjusting Microphone')
     global r
     with sr.Microphone() as source:
         r.adjust_for_ambient_noise(source)
@@ -34,4 +35,7 @@ def record():
 def listen():
     global r
     audio = record()
-    return recognize_google(r, audio, "pt-br")
+    text = recognize_google(r, audio, "pt-br")
+    if text != '-=-':
+	print(text)
+    return text

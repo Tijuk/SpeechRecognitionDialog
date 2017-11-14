@@ -20,7 +20,8 @@ except ImportError:
 
 # demo agent acess token: e5dc21cab6df451c866bf5efacb40178
 
-CLIENT_ACCESS_TOKEN = '65877e113a5b429395d4c4cb4543f867'
+#CLIENT_ACCESS_TOKEN = '65877e113a5b429395d4c4cb4543f867'
+CLIENT_ACCESS_TOKEN = '4b693ee4418848028d47eb9290d175e4'
 
 
 def query(input):
